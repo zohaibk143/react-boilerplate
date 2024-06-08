@@ -1,0 +1,55 @@
+//import shifaForm from './shifaForm.scss';
+@import './shifaForm.scss';
+@import './variables.scss';
+
+.test {
+    background: $color;
+}
+.Header{
+    padding: 1px;
+    text-align: left;
+    background: $background;
+    font-size: $h1;
+    color: $color;
+    box-shadow: $shadow;
+}
+//h1 in the header
+.Header h1{
+    margin-left: $marg;
+}
+.Header:hover{
+    background: grey;
+}
+.Content{
+    display: flex;
+    flex-direction: row;
+}
+// .Tab{
+//     flex: 1;
+//     // padding: 5px;
+//     text-align: left;
+//     background: $color;
+//     font-size: $h1;
+//     box-shadow: $shadow;
+//     margin: $marg;
+// }
+.Link{
+    color: black;
+    text-decoration: none;
+    padding: 2%;
+    margin: $marg;
+    height: 100vh;
+
+}
+
+
+.drawerButton{
+    color: $color;
+    background: $background;
+    border-radius: 0px;
+    padding: 1px;
+    //position at left most
+    position: absolute;
+    left: 0px;
+
+}

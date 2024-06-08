@@ -1,0 +1,352 @@
+.header-main {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+.ant-layout-header {
+  background-color: #fff !important;
+  padding: 0 !important;
+  border: 1px solid #e5ecf4 !important;
+  /* height: 76px !important; */
+}
+.top-header-container {
+  display: fixed;
+  z-index: 1;
+  width: "100%";
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo {
+  height: 46px !important;
+}
+.top-header-logo-container {
+  display: flex;
+  margin-left: 1%;
+  padding-left: 13px !important;
+  padding-top: 7px;
+}
+.top-header-search-button {
+  width: 77%;
+  margin-top: 14px;
+  /* float: right; */
+}
+.user-header-image {
+  border-left: 1px solid #e5ecf4;
+  padding-left: 20px;
+  cursor: pointer;
+  padding-right: 12px;
+  width: 10%;
+}
+.user-header-image img {
+  width: 50%;
+  object-fit: cover;
+  border-radius: 10px;
+  float: right;
+  margin-top: 18px;
+}
+.header-date-picker {
+  height: 32px !important;
+  margin-top: 15px !important;
+  background: #eceaf3 !important;
+}
+.header-date-picker::placeholder {
+  color: #000 !important;
+}
+.header-search-input {
+  background: #eceaf3 !important;
+}
+.header-search-input::placeholder {
+  color: #000 !important;
+}
+.header-user-container {
+  display: -webkit-flex;
+  display: flex;
+  margin-top: -10px;
+  margin-right: 20px;
+  justify-content: flex-end;
+  /* padding-top: 1%; */
+}
+/* .enroll-modal-btn{
+  padding-top: 8%;
+} */
+
+.pat-list-modal .ant-modal-header {
+  background: $modal-header-background !important;
+  padding: 10px 24px !important;
+}
+.pat-list-modal.ant-modal {
+  top: 23px !important;
+}
+.pat-list-modal .ant-modal-close-x {
+  line-height: 43px !important;
+  color: #fff;
+}
+.pat-list-modal .ant-modal-title {
+  text-align: center !important;
+  color: #fff !important;
+}
+.appt-menu-dropdown.ant-btn {
+  border: none !important;
+  background: none !important;
+  padding: 0px 0px !important;
+}
+.enroll-modal-btn {
+  width: 100% !important;
+  background-color: #1d4a88 !important;
+  color: #fbfdff !important;
+  border-color: #1d4a88 !important;
+  border-radius: 10px !important;
+  /* height: 50px; */
+  padding: 7px 15px;
+}
+.user-password-modal-footer {
+  display: flex !important;
+  justify-content: center !important;
+}
+.enrollment-modal-footer {
+  display: flex !important;
+  justify-content: center !important;
+}
+.model-search-btn {
+  background-color: #1d4a88 !important;
+  color: var(--primary-button-text-color) !important;
+  border-color: var(--primary-button-bg-color) !important;
+  border-radius: 6px !important;
+  /* margin-right: 14px; */
+}
+.model-cancel-btn {
+  background: #d2d8e0 !important;
+  color: #1d4a88 !important;
+  border-color: #d2d8e0 !important;
+  border-radius: 6px !important;
+  /* margin-right: 29%; */
+}
+.forget-model-search-btn {
+  background-color: #1d4a88 !important;
+  color: var(--primary-button-text-color) !important;
+  border-color: var(--primary-button-bg-color) !important;
+  /* margin-right: 14px; */
+}
+.forget-model-cancel-btn {
+  background: #d2d8e0 !important;
+  color: #1d4a88 !important;
+  border-color: #d2d8e0 !important;
+  /* margin-right: 33%; */
+}
+.model-detail-cancel-btn {
+  background: #d2d8e0 !important;
+  color: #1d4a88 !important;
+  border-color: #d2d8e0 !important;
+  border-radius: 6px !important;
+}
+.model-search-input {
+  border: 1px solid black;
+  margin-left: 11%;
+  /* border-radius: 8px!important; */
+}
+.model-search-label {
+  margin-left: 11%;
+  margin-bottom: 2% !important;
+  color: #1d4a88 !important;
+  font-weight: bold !important;
+}
+.model-search-error {
+  margin-left: 11%;
+  margin-top: 2% !important;
+  color: #b8220e !important;
+  font-weight: bold !important;
+}
+.patient-detail-container {
+  padding: 2px 0 !important;
+  margin-bottom: 0 !important;
+}
+/* .search-table{
+margin-left:5%!important
+} */
+/* .light-blue-header{
+  height: 1%;
+} */
+.user-name {
+  font-size: 16px !important;
+}
+.user-email {
+  font-size: 10px !important;
+  color: rgb(60, 76, 123) !important;
+  padding-top: 4px !important;
+}
+.header-user-menu-item {
+  border-bottom: 1px solid #e5ecf4 !important;
+}
+.user-menu-items {
+  border-bottom: 1px solid #e5ecf4 !important;
+}
+.user-menu-items-text {
+  font-size: 12px;
+  /* font-family: var(--primary-font-bold)!important; */
+  color: rgba(0, 0, 0, 0.85) !important;
+}
+.enrollment-tag {
+  width: 90% !important;
+  height: 27px !important;
+  font-weight: 800 !important;
+  text-align: center !important;
+  border-radius: 3px !important;
+  border: 1px solid #4195e2 !important;
+}
+
+.user-icons .anticon svg {
+  font-size: 15px !important;
+  padding-top: 1px !important;
+}
+.single-pat-diabetic-care-enroll-label {
+  padding-right: 8%;
+  /* padding-bottom: 1px!important; */
+  font-weight: bold !important;
+  color: #08a953 !important;
+}
+.single-pat-heart-care-add-label {
+  padding-right: 4%;
+  /* padding-bottom: 1px!important; */
+  font-weight: bold !important;
+  color: #1d4a88 !important;
+}
+.single-pat-mother-care-add-label {
+  padding-right: 4%;
+  /* padding-bottom: 1px!important; */
+  font-weight: bold !important;
+  color: #1d4a88 !important;
+}
+.demo-diabetic-care-add-label {
+  padding-right: 4%;
+  /* padding-bottom: 1px!important; */
+  font-weight: bold !important;
+  color: #1d4a88 !important;
+}
+.demo-heart-care-add-label {
+  padding-right: 4%;
+  /* padding-bottom: 1px!important; */
+  font-weight: bold !important;
+  color: #1d4a88 !important;
+}
+.demo-mother-care-add-label {
+  padding-right: 4%;
+  /* padding-bottom: 1px!important; */
+  font-weight: bold !important;
+  color: #1d4a88 !important;
+}
+.single-pat-heart-care-enroll-label {
+  padding-right: 8%;
+  font-weight: bold !important;
+  color: #08a953 !important;
+}
+.single-pat-mother-care-enroll-label {
+  padding-right: 8%;
+  font-weight: bold !important;
+  color: #08a953 !important;
+}
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #08a953 !important;
+  border-color: #08a953 !important;
+}
+.enrollment-input.ant-form-item-with-help .ant-form-item-explain {
+  text-align: center;
+}
+.enrollment-tag-diabetes.ant-tag {
+  margin-right: 0px !important;
+  font-size: 11px !important;
+  width: 110px !important;
+  padding: 0 0px !important;
+  text-align: center !important;
+}
+.enroll-button.ant-checkbox-group {
+  line-height: 2 !important;
+}
+.ant-select-arrow .anticon > svg {
+  height: 0.7em !important;
+}
+.program-info {
+  padding-top: 3% !important;
+}
+.user-icons.anticon {
+  font-size: 12px !important;
+}
+
+.mr-3 {
+  margin-right: 3% !important;
+}
+.mr-5 {
+  margin-right: 1%;
+}
+.mr-2 {
+  margin-right: 1px !important;
+}
+.mr-30 {
+  margin-right: 30px !important;
+}
+.mb-0 {
+  margin-bottom: 0px !important;
+}
+.pat-detail-text {
+  padding-top: 3px;
+}
+.header-enrollment-button {
+  border-radius: 6px !important;
+  background-color: #1d4a88 !important ;
+  border-color: #1d4a88 !important;
+}
+.enrollment-bottom-icon-diabetes {
+  background-color: #4195e2 !important;
+  padding-top: 2px !important;
+  padding-right: 2px !important;
+  padding-bottom: 2px !important;
+  padding-left: 2px !important;
+}
+.vital-box {
+  background-color: #fff !important;
+  padding: 10px !important;
+}
+.vital-box-text {
+  color: #3c4c7b !important;
+  font-family: var(--primary-font-regular);
+  font-size: 12px !important;
+}
+.user-vital-input {
+  height: 28px !important;
+  border-radius: 4px !important;
+  line-height: 28px !important;
+  color: #3c4c7b !important;
+  padding: 4px 5px !important;
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 769px) {
+  .header-enrollment-button {
+    margin-right: 3% !important;
+  }
+  .header-back-button {
+    margin-right: 3% !important;
+  }
+}
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1025px) {
+  .header-enrollment-button {
+    margin-right: 4% !important;
+  }
+  .header-back-button {
+    margin-right: 4% !important;
+  }
+}
+@media only screen and (min-device-width: 1430px) and (max-device-width: 2050px) {
+  .header-enrollment-button {
+    margin-right: 0% !important;
+  }
+  .header-back-button {
+    margin-right: 0% !important;
+  }
+}
+@media only screen and (min-device-width: 1900px) and (max-device-width: 2050px) {
+  .header-enrollment-button {
+    margin-right: 1% !important;
+  }
+  .header-back-button {
+    margin-right: 1% !important;
+  }
+}

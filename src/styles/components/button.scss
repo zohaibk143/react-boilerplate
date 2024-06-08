@@ -1,0 +1,24 @@
+/* .primary-btn {
+	background-color: var(--primary-button-bg-color) !important;
+	color: var(--primary-button-text-color) !important;
+	border-color: var(--primary-button-bg-color) !important;
+} */
+.secondary-btn {
+  background-color: var(--secondary-button-bg-color) !important;
+  border-color: var(--secondary-button-border-color) !important;
+  color: var(--secondary-button-text-color) !important;
+}
+.tertiary-btn {
+  background-color: var(--tertiary-button-bg-color) !important;
+  border-color: var(--tertiary-button-bg-color) !important;
+  color: var(--tertiary-button-text-color) !important;
+}
+.elderly-form-btn.ant-btn {
+  position: fixed !important;
+  background: #008e57 !important;
+  border-color: #008e57 !important;
+  font-weight: 500 !important;
+  color: #fff !important;
+  right: 1%;
+  bottom: 2%;
+}

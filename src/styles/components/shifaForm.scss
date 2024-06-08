@@ -1,0 +1,125 @@
+@import "./variables.scss";
+
+.site-collapse-custom-panel .ant-collapse-header {
+  text-align: left;
+  font-size: $h2;
+  padding: 8px !important;
+  font-weight: $font-weight;
+}
+.site-collapse-custom-panel .ant-collapse-header .ant-collapse-header-text {
+  color: $color;
+  font-weight: $font-weight;
+}
+.site-collapse-custom-panel .ant-collapse-header .ant-collapse-expand-icon {
+  color: $color;
+}
+.elderly-care-form .ant-input {
+  font-size: $p !important;
+}
+.dementia-tabs.ant-radio-button-wrapper-checked:not(
+    [class*=" ant-radio-button-wrapper-disabled"]
+  )
+  .ant-radio-button-wrapper:first-child {
+  border-right-color: #6390ce !important;
+}
+.dementia-tabs.ant-radio-group-solid
+  .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+  background: #6390ce !important;
+  border-color: #6390ce !important;
+}
+.dementia-score-label {
+  font-size: 13px !important;
+}
+.site-collapse {
+  color: $color;
+  width: auto;
+  height: auto;
+}
+.formItem {
+  font-weight: $p-weight;
+  font-size: $p !important;
+}
+label.label {
+  font-weight: $p-weight;
+  font-size: $p !important;
+}
+.formItem Input {
+  border-radius: 0px;
+}
+.formItem .input {
+  font-weight: $font-weight;
+  // font-size: $p !important;
+  width: 80%;
+  border-radius: 0px;
+}
+//media query
+// @media only screen and (max-width: 1000px) {
+//     .formItem .input{
+//         width: 100%;
+//     }
+
+// }
+
+.dementia-panel {
+  box-shadow: $shadow;
+  background: #43789f !important;
+}
+.addButton:hover {
+  color: #3e6090;
+  font-weight: $font-weight;
+  font-size: 40px;
+  box-shadow: $shadow;
+}
+.decButton:hover {
+  color: rgb(248, 54, 54);
+  font-size: 40px;
+  font-weight: $font-weight;
+  box-shadow: $shadow;
+}
+.fall-risk-status-info.ant-alert {
+  font-size: 12px !important;
+  line-height: 0 !important;
+  padding: 4px 13px !important;
+  border-radius: 8px !important;
+}
+.formLabel {
+  font-weight: $font-weight;
+  // font-size: $p !important;
+}
+
+.radioForm {
+  margin: $marg;
+}
+
+.radioForm .ant-radio-wrapper {
+  color: #b2a4a4;
+  font-weight: $font-weight;
+  font-size: 16px;
+  margin: 10px;
+}
+.addButton {
+  color: #1d4a88;
+  font-weight: $font-weight;
+  font-size: 40px;
+  margin: $marg;
+  box-shadow: $shadow;
+}
+.decButton {
+  color: red;
+  font-size: 40px;
+  font-weight: $font-weight;
+  margin-top: 26px;
+  box-shadow: $shadow;
+}
+.addButton2 {
+  color: #1d4a88;
+  font-weight: $font-weight;
+  font-size: 40px;
+  box-shadow: $shadow;
+}
+.decButton2 {
+  color: red;
+  font-size: 40px;
+  font-weight: $font-weight;
+  box-shadow: $shadow;
+}

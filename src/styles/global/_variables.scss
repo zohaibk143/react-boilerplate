@@ -1,0 +1,27 @@
+//@mixin
+@mixin dropdown-height {
+  max-height: 200px;
+  overflow-y: scroll !important;
+}
+//variables
+$login-bg: url("../../assets/images/login-bg.jpg");
+$primary-font-size: 12px;
+$font-size-small: 11px;
+$font-size-large: 14px;
+$font-stack-regular: "open_sansregular", sans-serif;
+$font-stack-bold: "open_sansbold", sans-serif;
+$primary-text-color: #3c4c7b;
+$primary-link-color: #0093dd;
+/* btn types */
+$btn-primary-bg: #3f6daa; //btn bg color
+$btn-primary-hover: #3f6daa; //btn bg color
+$btn-background: #234a88;
+$btn-border-color: #234a88;
+/* btn types end */
+$error-msg-color: #c40000;
+//text center
+$justify-content-center: center;
+$align-items-center: center;
+$display-flex: flex;
+//modal
+$modal-header-background: #1d4a88;
